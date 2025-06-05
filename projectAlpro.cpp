@@ -257,6 +257,7 @@ void inputBarang()
     else
     {
         cout << "Jumlah barang melebihi kapasitas maksimal!" << endl;
+        system("pause");
     }
 }
 
@@ -636,6 +637,7 @@ void cetakStruk(string namabarang, int jumlah, float hargasatuan, float total)
         cout << "Gagal menyimpan ke file!" << endl;
     }
 }
+
 void cetakFooterStruk(float totalbayar)
 {
     ofstream file(fileStruk, ios::app);
